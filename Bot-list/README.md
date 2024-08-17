@@ -66,7 +66,7 @@ bash
 
     json-server --watch db.json
 
-The server will run on http://localhost:8002/bots.
+The server will run on http://localhost:3000/bots.
 
 Run the React Application
 
@@ -106,7 +106,5 @@ Acknowledgments
 For any issues or questions, please reach to me via github.
 
 
-
-This README provides a clear overview of the project, installation and setup instructions, usage details, and information about development and licensing. Make sure to replace placeholder text (like `<git@github.com:toxidity-18/P-2-Bot-Battlr-code-challenge.git>` and `[Samuel]`) .
 
 

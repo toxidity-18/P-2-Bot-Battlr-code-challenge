@@ -1,6 +1,3 @@
-Here's a README.md file for your Bot Battlr project. This README covers project description, setup instructions, usage, and other essential details.
-
-markdown
 
 # BOT-LIST
 

@@ -20,7 +20,7 @@ const App = () => {
   };
 
   const handleDischargeBot = (bot) => {
-    axios.delete(`http://localhost:8002/bots/${bot.id}`)
+    axios.delete(`http://localhost:3000/bots/${bot.id}`)
       .then(() => {
         setArmy(army.filter(b => b.id !== bot.id));
       })
@@ -29,7 +29,7 @@ const App = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 p-6">
-      <h1 className="text-4xl font-extrabold mb-8 text-center text-blue-600">Bot Battlr</h1>
+      <h1 className="text-4xl font-extrabold mb-8 text-center text-gray-800">Bot Battlr</h1>
       <div className="container mx-auto">
         <BotCollection onAddBot={handleAddBot} />
         <YourBotArmy

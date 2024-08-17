@@ -6,7 +6,7 @@ const BotCollection = ({ onAddBot }) => {
   const [bots, setBots] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:8002/bots')
+    axios.get('http://localhost:3000/bots')
       .then(response => setBots(response.data))
       .catch(error => console.error('Error fetching bots:', error));
   }, []);
